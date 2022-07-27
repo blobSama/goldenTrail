@@ -1,0 +1,21 @@
+﻿body {
+    background-color: black;
+    display: grid;
+    grid-template-areas: "header" "title" "grid" "footer";
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-auto-flow: row;
+    justify-content: space-evenly;
+    grid-row-gap: 15px;
+}
+
+#form1 {
+    grid-area: grid;
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+#div{
+    background-color:white;
+    padding: 10px;
+    border-radius: 10px;
+}
